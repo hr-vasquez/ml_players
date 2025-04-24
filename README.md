@@ -28,4 +28,11 @@ It was analyzed the best eps and min_samples for MinMax and Standard datasets. A
 ### Agglomerative Clustering
 It was analyzed the best number of clusters for MinMax and Standard datasets. A chart was provided to see how the clusters are distributed.
 ## Model Comparisson
-|    | Model         | Normalization   |   Number of Clusters | Silhouette Score    | Davies-Bouldin Index   | Calinski-Harabasz Score   |\n|---:|:--------------|:----------------|---------------------:|:--------------------|:-----------------------|:--------------------------|\n|  0 | K-Means       | MinMax          |                    2 | 0.17537957393000053 | 2.2248380073187466     | 804.941064602819          |\n|  1 | K-Means       | Standard        |                    5 | 0.12873577093604635 | 1.811895*              | 638.1685731880492         |\n|  2 | DBSCAN        | MinMax          |                    2 | 0.1693067769959489  | 2.3616747880570736     | 11.196667886611754        |\n|  3 | DBSCAN        | Standard        |                    2 | 0.645072*           | 2.6190475899960632     | 115.13446714871299        |\n|  4 | Agglomerative | MinMax          |                    2 | 0.1823598251525272  | 2.0860089909479433     | 816.791435*               |\n|  5 | Agglomerative | Standard        |                    4 | 0.11671582629170589 | 1.958455014531524      | 561.7860443789965         |
+|    | Model         | Normalization   |   Number of Clusters | Silhouette Score    | Davies-Bouldin Index   | Calinski-Harabasz Score   |
+|---:|:--------------|:----------------|---------------------:|:--------------------|:-----------------------|:--------------------------|
+|  0 | K-Means       | MinMax          |                    2 | 0.17537957393000053 | 2.2248380073187466     | 804.941064602819          |
+|  1 | K-Means       | Standard        |                    5 | 0.12873577093604635 | 1.811895*              | 638.1685731880492         |
+|  2 | DBSCAN        | MinMax          |                    2 | 0.1693067769959489  | 2.3616747880570736     | 11.196667886611754        |
+|  3 | DBSCAN        | Standard        |                    2 | 0.645072*           | 2.6190475899960632     | 115.13446714871299        |
+|  4 | Agglomerative | MinMax          |                    2 | 0.1823598251525272  | 2.0860089909479433     | 816.791435*               |
+|  5 | Agglomerative | Standard        |                    4 | 0.11671582629170589 | 1.958455014531524      | 561.7860443789965         |
